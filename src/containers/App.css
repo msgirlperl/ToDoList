@@ -1,0 +1,68 @@
+
+.App-logo {
+  height: 50px;
+}
+
+.App-header {
+  height: 75px;
+  padding: 20px;
+  color: white;
+  border-bottom: 1px solid #bcbcbc;
+  margin-bottom: 20px;
+}
+
+.App-header-text {
+  color: #9DE1B6;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.group {
+  font-size:.75em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9eaeb;
+  color:#bec1c6;
+  margin-left: 0px;
+}
+.groupName {
+  justify-content: space-around;
+  font-size:1.2em;
+  font-weight: bold;
+  color:#5B5B5B;
+}
+
+.arrow{
+  color:#bec1c6;
+  vertical-align: middle;
+  padding-top:10px;
+}
+
+h4 {
+  color:#6e6e6e;
+  border-bottom: 1px solid #e9eaeb;
+  padding-bottom: 10px;
+  padding-top:30px;
+}
+
+.task{
+  font-size:1em;
+  padding-top:5px;
+  padding-bottom:5px;
+  color: #5B5B5B;
+  margin-left: 0px;
+}
+
+.completed {
+  text-decoration:line-through;
+}
+
+.locked{
+  color:#9B9B9B;
+}
+
+.list-group-item {
+    display: list-item;
+}
