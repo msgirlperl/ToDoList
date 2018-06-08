@@ -190,26 +190,24 @@ class App extends Component {
               <TaskList tasks={selectedTaskGroup.groupTasks} taskClick={this.onTaskClicked} />
             </div>
         </div>
-
-
-<button data-toggle="collapse" data-target="#demo">Collapsible</button>
-<div id="demo" class="collapse">
-Lorem ipsum dolor text....
-</div>    
-        <div>
-            <h4>Instructions I was provided for this coding challenge:</h4>
-          Create a grouped task list with task dependencies
-
-          <ol class="list-group mb-5">
-            <li class="list-group-item">Build a task list UI in React using included design and SVG assets</li>
-            <li class="list-group-item"> The top level should show a list of task groups w/ # of tasks inside</li>
-            <li class="list-group-item">Clicking a group should display the list of all tasks for that group</li>
-            <li class="list-group-item">Tasks remain locked until all dependent tasks are complete</li>
-            <li class="list-group-item">Clicking a task should mark it as complete or incomplete, unless the task is locked</li>
-            <li class="list-group-item">Dependencies that do not point to a loaded task should be ignored</li>
-          </ol>
-
-
+        <div className="instructions text-right">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            View Instructions
+          </button>
+          <div><small>(I was provided for this coding challenge)</small></div>
+          <div class="collapse" id="collapseExample">
+            <div class="well text-left">
+              <h5>Create a grouped task list with task dependencies</h5>
+            <ol class="list-group mb-5">
+              <li class="list-group-item">Build a task list UI in React using included design and SVG assets</li>
+              <li class="list-group-item"> The top level should show a list of task groups w/ # of tasks inside</li>
+              <li class="list-group-item">Clicking a group should display the list of all tasks for that group</li>
+              <li class="list-group-item">Tasks remain locked until all dependent tasks are complete</li>
+              <li class="list-group-item">Clicking a task should mark it as complete or incomplete, unless the task is locked</li>
+              <li class="list-group-item">Dependencies that do not point to a loaded task should be ignored</li>
+            </ol>
+            </div>
+          </div>
         </div>
       </div>
     );

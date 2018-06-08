@@ -66,3 +66,7 @@ h4 {
 .list-group-item {
     display: list-item;
 }
+
+.instructions{
+  padding-top:100px;
+}
