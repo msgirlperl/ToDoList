@@ -1,5 +1,5 @@
 # ToDoList
-## A simple app I built for a coding challenge to play around with React
+## A simple app I built for a coding challenge (and updated to play around with React)
 
 The following were the instructions given to me:
 
